@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!--小布局背景颜色    -->
+    <color name="small_background">#a2cce7</color>
+    <!--大布局背景颜色    -->
+    <color name="large_background">#ADD8E6</color>
+
+    <!--城市搜索编辑框背景颜色    -->
+    <color name="city_search_edit">#989898</color>
+
+</resources>

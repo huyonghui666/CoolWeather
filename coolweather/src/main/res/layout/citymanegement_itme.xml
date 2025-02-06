@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:id="@+id/relaout_citychild"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/round2">
+        <TextView
+            android:id="@+id/citychild_cityname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            tools:text="天心"
+        />
+
+        <TextView
+            android:id="@+id/citychild_aqi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/citychild_cityname"
+            android:layout_marginBottom="-21dp"
+            android:paddingLeft="15dp"
+            android:textSize="15dp"
+            tools:text="空气良 20°/10°" />
+
+        <TextView
+            android:id="@+id/citychild_nowtemp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:paddingRight="20dp"
+            android:paddingTop="20dp"
+            android:layout_alignParentRight="true"
+            tools:text="8°"
+            />
+
+    </RelativeLayout>
+
+</LinearLayout>

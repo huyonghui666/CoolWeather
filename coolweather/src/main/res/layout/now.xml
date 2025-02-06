@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="15dp">
+
+    <!-- 显示当前温度   -->
+    <TextView
+        android:id="@+id/degree_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="60sp"
+        android:textColor="@color/white"
+        tools:text="29℃"/>
+    <!--显示天气概况-->
+    <TextView
+        android:id="@+id/weather_info_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        tools:text="晴 15°/9°"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/aqi_text"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="60dp"
+            android:layout_weight="1"
+            android:background="@drawable/round"
+            android:drawableLeft="@drawable/_1029"
+            android:gravity="center"
+            android:textColor="@color/white"
+            tools:text="轻度污染 147" />
+
+        <TextView
+            android:id="@+id/rain_forecast"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginRight="50dp"
+            android:textColor="@color/white"
+            android:background="@drawable/round"
+            android:drawableLeft="@drawable/_399"
+            android:paddingLeft="10dp"
+            android:gravity="center"
+            tools:text="正在降雨"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>
